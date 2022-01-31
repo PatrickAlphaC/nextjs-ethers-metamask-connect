@@ -2,9 +2,9 @@
 
 This is a minimalistic project to show us how we can connect to metamask using ethersjs in nextjs / react.
 
-It's in typescript, but it's **basically** the same in javascript.
+This could just as easily be done in typescript.
 
-This project started with nexjs boilerplate by running `yarn create next-app nextjs-ethers-metamask-connect --typescript`
+This project started with nexjs boilerplate by running `yarn create next-app nextjs-ethers-metamask-connect`
 
 Video Coming soon...
 
@@ -25,19 +25,12 @@ Video coming soon...
   - You'll know you did it right if you can run `git --version` and you see a response like `git version x.x.x`
 - [Nodejs & npm](https://nodejs.org/en/)
   - You'll know you've installed nodejs right if you can run:
-    - `node --version`
-    - And get an ouput like:
-    - `vx.x.x`
+    - `node --version` And get an ouput like: `vx.x.x`
   - You'll know you've installed npx right if you can run:
-    - `npm --version`
-    - And get an ouput like:
-    - `x.x.x`
-    - You might need to install it with npm
+    - `npm --version` And get an ouput like: `x.x.x`
 - [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/) instead of `npm`
   - You'll know you've installed yarn right if you can run:
-    - `yarn --version`
-    - And get an output like:
-    - `x.x.x`
+    - `yarn --version` And get an output like: `x.x.x`
     - You might need to install it with npm
 - [Metamask](https://metamask.io/)
   - This is a browser extension that lets you interact with the blockchain.
@@ -62,12 +55,14 @@ yarn hardhat node
 
 This will deploy a sample contract and start a local hardhat blockchain.
 
-3. Connect your [metamask](https://metamask.io/)
+3. Connect your [metamask](https://metamask.io/) to your local hardhat blockchain.
 
 > **PLEASE USE A METAMASK ACCOUNT THAT ISNT ASSOCIATED WITH ANY REAL MONEY.**
 > I usually use a few different browser profiles to separate my metamasks easily.
 
-In the output, take on of the private key accounts and [import it into your metamask.](https://metamask.zendesk.com/hc/en-us/articles/360015489331-How-to-import-an-Account)
+In the output of the above command, take one of the private key accounts and [import it into your metamask.](https://metamask.zendesk.com/hc/en-us/articles/360015489331-How-to-import-an-Account)
+
+Additionally, add your localhost with chainid 31337 to your metamask.
 
 4. Open the UI
 
